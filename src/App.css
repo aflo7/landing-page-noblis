@@ -1,0 +1,127 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 81, 104);
+}
+
+.top-nav {
+  padding: 10px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-icons {
+  display: none;
+}
+
+.icon-wrapper,
+.left-nav-buttons {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-nav {
+  display: flex;
+  width: 1000px;
+}
+
+.bottom-nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ci-menu-burger {
+  border: 1px solid lightgray;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left-nav-buttons > div {
+  text-transform: uppercase;
+}
+
+.ci-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+#earthBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(https://noblis.org/wp-content/uploads/2023/11/Banner-BeyondBoundaries-NavySOSE-scaled.jpg);
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.missions-we-serve {
+  color: rgb(64, 90, 115);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 40px;
+}
+
+.civil-icon-wrapper {
+  display: flex;
+}
+
+.civil-icon-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.civil-icon-wrapper > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .right-nav-btns {
+    display: flex;
+    gap: 40px;
+  }
+
+  .right-icons {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+    color: rgb(50, 81, 104);
+    font-weight: bold;
+  }
+
+  .ci-wrapper {
+    display: none;
+  }
+
+  .civil-icon-wrapper > div {
+    flex-direction: row;
+    width: 1000px;
+  }
+}
